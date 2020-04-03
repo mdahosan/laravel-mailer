@@ -1,0 +1,26 @@
+{
+    "name": "pondit/mailer",
+    "description": "this will send single or bulk email to contact email and save contact to database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mdahosanhabib",
+            "email": "cseahosan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pondit\\Mailer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pondit\\Mailer\\MailerServiceProvider"
+            ]
+        }
+    }
+}
